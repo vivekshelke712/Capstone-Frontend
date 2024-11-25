@@ -18,7 +18,7 @@ const Help = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission, e.g., send data to backend or API
+  
     console.log(formData);
     alert('Details of the needy individual have been submitted!');
     setFormData({
