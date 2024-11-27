@@ -1,0 +1,14 @@
+src/main/java/com/aidbridge/
+│
+├── config/          # Security and JWT configurations
+├── controller/      # REST APIs (e.g., login, registration)
+├── entity/          # Database models (e.g., User entity)
+├── repository/      # Interfaces to interact with the database (e.g., UserRepository)
+├── service/         # Business logic (e.g., UserService for password encoding)
+├── util/            # Utility classes (e.g., JWT utility)
+├── AidbridgeApplication.java  # Main class to run Spring Boot application
+│
+└── resources/
+    ├── application.properties  # Configuration (e.g., DB connection, JWT secret)
+    ├── static/                 # Static files (CSS, JS, etc.)
+    └── templates/              # HTML templates (if using server-side rendering)
