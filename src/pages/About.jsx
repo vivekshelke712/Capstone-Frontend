@@ -13,7 +13,7 @@ const About = () => {
     },
     {
       name: 'Pratik Ronge',
-      role: 'Founder and Ceo',
+      role: 'Founder and  create Ceo',
       image: ceo, 
     },
     // {
